@@ -1,8 +1,8 @@
 import Html exposing (beginnerProgram, div, button, text)
 import Html.Events exposing (onClick)
 
---Model
-main =
+--Model:  state only needs single int for model
+main = 
   beginnerProgram { model = 0, view = view, update = update }
 
 
